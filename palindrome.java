@@ -17,6 +17,7 @@ public class PalindromeChecker {
         scanner.close();
     }
     //1 This is palindrome code 
+    //code is fix by Sgit 
     public static boolean isPalindrome(String str) {
         int left = 0, right = str.length() - 1;
         while (left < right) {
