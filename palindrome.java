@@ -9,14 +9,14 @@ public class PalindromeChecker {
         
         if (isPalindrome(input)) {
             System.out.println(input + " is a palindrome.");
-            
+
         } else {
             System.out.println(input + " is not a palindrome.");
         }
         
         scanner.close();
     }
-    
+    //1 This is palindrome code 
     public static boolean isPalindrome(String str) {
         int left = 0, right = str.length() - 1;
         while (left < right) {
