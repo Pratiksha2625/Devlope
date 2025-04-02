@@ -15,7 +15,7 @@ public class PrimeNumberChecker {
         
         scanner.close();
     }
-    //this v imp code
+    //this v imp code S fix code 
     public static boolean isPrime(int num) {
         if (num <= 1) {
             return false;
